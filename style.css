@@ -1,0 +1,21 @@
+body h1 h2 h3 h4 h5 p span a{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+.john-header a.navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.john-header span{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    background-color:#6278df ;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+}
