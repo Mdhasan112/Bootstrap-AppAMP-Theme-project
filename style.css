@@ -1,4 +1,4 @@
-body h1 h2 h3 h4 h5 p span a{
+body, h1, h2, h3, h5, p, span{
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -10,12 +10,35 @@ body h1 h2 h3 h4 h5 p span a{
 .john-header span{
     display: inline-block;
     color: white;
-    font-size: 30px;
-    background-color:#6278df ;
+    background-color: #6278df;
     width: 45px;
     height: 45px;
     text-align: center;
+    font-size: 30px;
     border-radius: 10px;
-    position: relative;
-    top: 3px;
+}
+.navbar-nav li{
+    font-size: 19px;
+}
+
+/* slider-section */
+
+.slider-section{
+    background: url(images/mbr-10.jpg) no-repeat center;
+    padding: 160px 0px;
+}
+.slider-section h4{
+    font-size: 25px;
+}
+.slider-section h2{
+    padding-top: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.slider-section button{
+    font-size: 25px;
+    font-weight: 600;
+}
+.slider-section input{
+    padding: 12px;
 }
