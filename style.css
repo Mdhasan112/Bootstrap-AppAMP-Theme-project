@@ -26,6 +26,19 @@ body, h1, h2, h3, h5, p, span{
 .slider-section{
     background: url(images/mbr-10.jpg) no-repeat center;
     padding: 160px 0px;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    z-index: -1;
+
 }
 .slider-section h4{
     font-size: 25px;
