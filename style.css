@@ -1,6 +1,9 @@
 body, h1, h2, h3, h5, p, span{
     font-family: 'Work Sans', sans-serif;
 }
+img{
+    max-width: 100%;
+}
 
 /* header section */
 .john-header a.navbar-brand{
@@ -38,7 +41,6 @@ body, h1, h2, h3, h5, p, span{
     left: 0;
     top: 0;
     z-index: -1;
-
 }
 .slider-section h4{
     font-size: 25px;
@@ -54,4 +56,40 @@ body, h1, h2, h3, h5, p, span{
 }
 .slider-section input{
     padding: 12px;
+}
+
+/* about-section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    padding-top: 110px;
+}
+.about-text-left .lead{
+    font-size: 22px;
+    line-height: 2rem;
+}
+
+/* feature-section */
+.feature-section{}
+.feature-items{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%)
+}
+
+.feature-image{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.feature-image img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.features-content{
+    width: 60%;
+    padding: 25px;
 }
