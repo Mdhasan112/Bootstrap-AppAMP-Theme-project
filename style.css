@@ -108,7 +108,7 @@ img{
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(82, 124, 209, 0.7);
+    background: rgba(63, 119, 231, 0.6);
     opacity: 0;
     visibility: hidden;
     transition: .5s;
