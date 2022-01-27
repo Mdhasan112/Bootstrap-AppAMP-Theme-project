@@ -219,3 +219,15 @@ img{
     margin-top: -90px;
     margin-left: 15px;
 }
+
+/* contact-section */
+.contact-section{}
+.contact-section .card{
+    border: none;
+}
+.contact-section .card-body{}
+
+/* footer */
+.min-section{
+    background: #f7f9ff;
+}
