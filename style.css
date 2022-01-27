@@ -129,11 +129,15 @@ img{
 }
 .pricing-table-heading p{
     font-size: 25px;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .pricing-table-item{
     background: white;
     padding: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
     box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%)
 }
 
@@ -147,9 +151,12 @@ img{
 
 .pricing-table-item ul{
     list-style: none;
-    padding-left: none;
+    padding-left: 0;
+    padding-left: 0;
+    margin-bottom: 60px;
 }
 .pricing-table-item li{
+    color: #777;
     font-size: 22px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -158,7 +165,17 @@ img{
 .pricing-table-item span{
     font-size: 22px;
     color: #6278df;
+    font-weight: bold;
+    display: inline-block;
+    width: 30px;
     
 }
 
-.pricing-item-button{}
+.pricing-item-button a button{
+    color: #6278df;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%)
+}
