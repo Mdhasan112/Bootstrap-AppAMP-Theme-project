@@ -179,3 +179,32 @@ img{
     border: 1px solid #6278df;
     box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%)
 }
+
+/* testimonial-section */
+.testimonial-section{}
+.testimonial-item p{
+    font-size: 20px;
+}
+.testimonial-item span{
+    font-size: 60px;
+    color: grey;
+}
+.author-info{
+    width: 280px;
+    margin: auto;
+}
+.author-info img{
+    width: 90px;
+    margin-right: 20px;
+}
+.author-details{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.author-details h2{
+    font-size: 30px;
+}
+.author-details p{
+    font-size: 20px;
+}
