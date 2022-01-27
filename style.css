@@ -208,3 +208,14 @@ img{
 .author-details p{
     font-size: 20px;
 }
+
+/* about-section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-section .card{}
+.about-section .card img{
+    width: 130px;
+    margin-top: -90px;
+    margin-left: 15px;
+}
